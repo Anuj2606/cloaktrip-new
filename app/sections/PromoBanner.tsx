@@ -21,7 +21,7 @@ export default function PromoBanner(){
     return (
         <> 
             <div className={`${aderoTrial.className} w-full text-white text-sm text-center py-2 px-4 font-normal transition-all duration-700 ease-out transform ${show ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'} bg-[#3C3C3C] tracking-wider mb-6`}>
-                <span className="text-xl sm:text-xl font-semibold"> 🏢 Need to Work? Enjoy a Dedicated Workspace in Your Room! 🎉</span>
+                <span className="text-xl sm:text-xl font-semibold">Plan Smarter. Explore Further. Your Perfect Trip Awaits — Just One Click Away! ✈️🌍✨</span>
             </div>
         </>
     )
