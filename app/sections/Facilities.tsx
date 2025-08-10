@@ -1,8 +1,6 @@
 import React from "react";
 
-import { Wifi, UtensilsCrossed } from "lucide-react";
-
-import { FaBoxOpen } from "react-icons/fa";
+import { Clock, Tickets, ShieldUser } from "lucide-react";
 
 import localFont from "next/font/local";
 
@@ -16,30 +14,30 @@ const kugile = localFont({
 
 const features = [
   {
-    icon: <Wifi size={32} className="text-[#292929]" />,
+    icon: <Tickets size={32} className="text-[#292929]" />,
 
-    title: "Personalized Trip Planning",
+    title: "Smart Trip Customization",
 
     description:
-      "Get 2–3 tailor-made itineraries based on your budget, time, and preferences.",
+      "Tailor every detail of your journey with flexible filters for budget, time, and preferences.",
   },
 
   {
-    icon: <FaBoxOpen size={32} className="text-[#292929]" />,
+    icon: <ShieldUser size={32} className="text-[#292929]" />,
 
-    title: "Personalized Room Service",
+    title: "Privacy-First Planning",
 
     description:
-      "Enjoy attentive in-room service specially tailored to your needs.",
+      "Your travel data stays secure and hidden unless you choose to share it.",
   },
 
   {
-    icon: <UtensilsCrossed size={32} className="text-[#292929]" />,
+    icon: <Clock size={32} className="text-[#292929]" />,
 
-    title: "Breakfast",
+    title: "24/7 Premium Support",
 
     description:
-      "Start your day with a range of healthy and satisfying breakfast options.",
+      "Dedicated assistance anytime for bookings, emergencies, and last-minute itinerary changes.",
   },
 ];
 
