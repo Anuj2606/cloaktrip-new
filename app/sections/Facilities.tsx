@@ -18,10 +18,10 @@ const features = [
   {
     icon: <Wifi size={32} className="text-[#292929]" />,
 
-    title: "Free & Fast Wi-Fi",
+    title: "Personalized Trip Planning",
 
     description:
-      "Stay seamlessly connected with high-speed internet throughout your stay.",
+      "Get 2–3 tailor-made itineraries based on your budget, time, and preferences.",
   },
 
   {
