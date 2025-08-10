@@ -3,7 +3,6 @@
 import localFont from "next/font/local";
 import { Poppins as PoppinsFont } from 'next/font/google';
 import { Heart, ArrowLeft, ArrowRight } from "lucide-react";
-import Link from "next/link";
 
 const kugile = localFont({
   src: "../fonts/Kugile_Demo.ttf",
