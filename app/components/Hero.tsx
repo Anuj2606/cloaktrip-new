@@ -94,7 +94,7 @@ export default function Hero() {
           {/* Image */}
           <div className="relative w-full sm:w-1/2 h-full">
             <Image
-              src="/Home.jpg"
+              src="/travel.avif"
               alt="Background"
               fill
               className="object-cover"

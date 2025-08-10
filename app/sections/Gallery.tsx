@@ -27,27 +27,27 @@ interface RoomCardData {
 
 const roomCards: RoomCardData[] = [
   {
-    title: "Regular Room",
-    originalPrice: "₹985",
-    discountedPrice: "₹899",
+    title: "Pune → Delhi",
+    originalPrice: "₹20000",
+    discountedPrice: "₹15000",
     button: "Click to View",
-    src: "/regular_1.jpg",
+    src: "/delhi.jpg",
     slug: "regular-room",
   },
   {
-    title: "Deluxe Room",
-    originalPrice: "₹2150",
-    discountedPrice: "₹1799",
+    title: "Mumbai → Manali",
+    originalPrice: "₹25000",
+    discountedPrice: "₹15000",
     button: "Click to View",
-    src: "/deluxroom1.jpg",
+    src: "/manali.jpg",
     slug: "deluxe-room",
   },
   {
-    title: "Twin Bed with Balcony",
-    originalPrice: "₹3680",
-    discountedPrice: "₹2299",
+    title: "Kolkata → Jammu",
+    originalPrice: "₹30000",
+    discountedPrice: "₹25000",
     button: "Click to View",
-    src: "/twin_1.jpg",
+    src: "/jammu.jpg",
     slug: "twin-room",
   },
 ];
@@ -86,11 +86,9 @@ const RoomCard: React.FC<RoomCardProps> = ({ card }) => (
     </div>
 
     <div className="relative z-10 p-4 pt-0 flex justify-center">
-      <Link href={`/rooms/${card.slug}`} passHref className="w-full">
         <button className={`${poppins.className} bg-[#e1e1e1] bg-opacity-20 backdrop-filter backdrop-blur-sm text-[#3c3c3c] rounded-full py-2 px-2 text-sm flex items-center cursor-pointer justify-center hover:bg-gray-400 focus:outline-none border border-white border-opacity-30 w-full`}>
           {card.button} <span className="ml-2">&#8594;</span>
         </button>
-      </Link>
     </div>
   </div>
 );

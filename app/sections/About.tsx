@@ -15,7 +15,7 @@ export default function AboutUsPage() {
       <div className="relative w-full md:w-[65%] text-[#3C3C3C] mx-auto p-8 sm:p-12 rounded-2xl shadow-md overflow-hidden hover:scale-105 transition-all delay-150 duration-300 ease-in-out">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/Bg.jpg"
+            src="/aboutus.webp"
             alt="Mayur Lodge text background"
             layout="fill"
             objectFit="cover"
