@@ -37,7 +37,7 @@ export default function Footer() {
       <div className="relative z-10 max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         
         <div className={`${kugile.className} text-[35px] mt-60 font-kugile md:flex-shrink-0 md:mt-60`}>
-          Mayur Lodge
+          CloakTravel
         </div>
 
         <div className="flex-grow flex flex-col items-center text-center mt-0 mb-30 pr-0 md:pr-60">

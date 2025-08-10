@@ -27,22 +27,9 @@ export default function AboutUsPage() {
 
         <div className="relative z-10">
           <p className="mb-4 text-xl leading-relaxed text-justify">
-            Welcome to Mayur Lodge, your trusted home away from home,
-            strategically located near MIDC Chakan-Kuruli, one of
-            Maharashtra&apos;s most dynamic and rapidly developing industrial
-            zones. Surrounded by major manufacturing giants such as
-            Mercedes-Benz, Volkswagen, Skoda, and Bajaj, we offer unmatched
-            convenience for professionals and travellers alike. Whether
-            you&apos;re visiting for a business assignment, engineering project,
-            or a relaxing getaway, Mayur Lodge caters to every kind of
-            guest—corporate teams, solo adventurers, families, and couples. Our
-            lodge is designed to deliver a clean, peaceful, and budget-friendly
-            experience without compromising on comfort. At Mayur Lodge, we
-            believe in genuine hospitality, efficient service, and a restful
-            atmosphere—making us a preferred stay option in the Chakan-Kuruli
-            area. Whether it&apos;s a short trip or an extended visit, we ensure
-            your stay is smooth, secure, and satisfying.
+            Welcome to CloakTravel, your smart travel companion for creating personalized trip plans without the hassle of fixed packages. Whether you’re planning a quick weekend escape, a budget-friendly journey, or a comfortable long vacation, we provide 2–3 tailored itineraries that match your budget, time, and comfort preferences. By combining real-time transport and hotel options, we ensure you get the best routes, stays, and cost breakdowns—all in one place. We believe in flexibility, transparency, and convenience, helping you travel your way, every time.
           </p>
+
         </div>
 
         <div className="absolute bottom-0 left-8 z-20">

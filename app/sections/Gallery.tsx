@@ -103,7 +103,7 @@ export default function Gallery() {
     >
       <div className="flex justify-between items-center mb-10">
         <h2 className="text-3xl sm:text-4xl md:text-5xl text-start">
-          Room Showcase
+          Plans 
         </h2>
         <div className="flex items-center space-x-2">
           <button className="w-10 h-10 rounded-full bg-transparent border border-gray-400 flex items-center justify-center text-gray-700 hover:bg-gray-100 focus:outline-none transition-colors duration-200">
