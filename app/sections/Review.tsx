@@ -22,9 +22,9 @@ const reviews = [
     avatar: "https://i.pravatar.cc/150?img=1",
     rating: 4,
     date: "Jan 28, 2025",
-    title: "Amazing Comfort.",
+    title: "Smooth and Convenient Planning",
     comment:
-      "I had a comfortable stay — the bed was soft, and the room felt clean and welcoming. The staff at the front desk were super friendly and even helped me arrange a cab at 5 AM. Only thing: the AC took a while to cool down, but once it did, the room was perfect. Would definitely come back for the service alone.",
+      "I planned my Goa weekend using this platform and it was unbelievably smooth. The filter form understood exactly what I needed — beachside hotel, local cafes, and a mix of nightlife and calm beaches. In just 10 minutes, I had three itineraries with full cost breakdowns. I booked the Balanced Plan and every booking detail was in my trip dashboard, from train tickets to hotel maps. No endless phone calls or spam, just pure convenience.",
   },
   {
     name: "Priya Sharma",
@@ -32,9 +32,9 @@ const reviews = [
     avatar: "https://i.pravatar.cc/150?img=2",
     rating: 5,
     date: "Dec 4, 2025",
-    title: "Very Convenient.",
+    title: "Tailored Travel with Scenic Routes",
     comment:
-      "Loved how central the hotel was — everything I needed was just a short walk away. The breakfast buffet was surprisingly good, especially the fresh fruit and omelette station. Only minor gripe: the coffee could’ve been hotter, but that’s me being picky. Great value for the location!",
+      "Most travel websites push you into pre-designed packages, but this one actually listens. For my Manali trip, I wanted to take a scenic train route up to Chandigarh, then a private cab to the hills, and fly back to save time. The platform gave me exactly that, plus hotel options from budget to luxury. I went for a cozy mid-range hotel with a mountain view and couldn’t be happier with the experience.",
   },
   {
     name: "Ravi Deshmukh",
@@ -42,11 +42,12 @@ const reviews = [
     avatar: "https://i.pravatar.cc/150?img=3",
     rating: 3,
     date: "Aug 17, 24",
-    title: "Hygienic",
+    title: "Privacy and Personalized Experience",
     comment:
-      "The room was neat, and housekeeping did a great job every day. I liked the small touches like fresh towels and bottled water. The only downside was the Wi-Fi — it worked fine in the lobby but was a bit spotty in my room. Still, for the price, it’s a solid choice if you are not expecting luxury.",
+      "I booked my Kerala honeymoon here, and it felt like having a personal travel assistant without the awkward calls. The itinerary included a night on a houseboat, a day in Munnar’s tea gardens, and a luxury resort near Kovalam beach. The privacy-first approach was the best part — no third-party agent spammed us. It was just our trip, our way, from start to finish.",
   },
 ];
+
 
 export default function UserReview() {
   return (
