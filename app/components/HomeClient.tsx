@@ -38,10 +38,6 @@ export default function HomeClient() {
         <Gallery />
       </div>
 
-      <div id="location" className="pt-0 mt-0">
-        <LocationSection />
-      </div>
-
       <div id="about" className="pt-0 mt-0">
         <AboutUsPage />
       </div>

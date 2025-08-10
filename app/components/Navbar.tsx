@@ -53,9 +53,6 @@ export default function Navbar() {
           <button onClick={() => goToSection('gallery')} className="hover:text-yellow-500 hover:scale-105 transition-all delay-150 duration-100 ease-in-out cursor-pointer uppercase">
             Plans 
           </button>
-          <button onClick={() => goToSection('location')} className="hover:text-yellow-500 hover:scale-105 transition-all delay-150 duration-100 ease-in-out cursor-pointer uppercase">
-            Location
-          </button>
         </div>
 
         <div className="hidden md:flex items-center">
