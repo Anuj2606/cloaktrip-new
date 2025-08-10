@@ -25,7 +25,7 @@ export function Calendar22({ onDateChange }: { onDateChange: (date: Date) => voi
   return (
     <div className="flex flex-col gap-3 text-[#3C3C3C]">
       <Label htmlFor="date" className={`${montserrat.className} px-1 sm:text-[30px] text-[16px]`}>
-        Check In
+        Start Date
       </Label>
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
@@ -64,7 +64,7 @@ export function Calendar23({ onDateChange }: { onDateChange: (date: Date) => voi
   return (
     <div className="flex flex-col gap-3 text-[#3C3C3C]">
       <Label htmlFor="date" className={`${montserrat.className} px-1 sm:text-[30px] text-[16px]`}>
-        Check Out
+        End Date
       </Label>
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>

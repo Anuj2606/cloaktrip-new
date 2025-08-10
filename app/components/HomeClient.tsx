@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import Hero from '../components/Hero';
 import AboutUsPage from '../sections/About';
 import FacilitiesServices from '../sections/Facilities';
-import LocationSection from '../sections/Location';
+//import LocationSection from '../sections/Location';
 import FAQPage from '../components/FAQpage';
 import Gallery from '../sections/Gallery';
 import UserReview from '../sections/Review';
@@ -37,6 +37,7 @@ export default function HomeClient() {
       <div id="gallery" className="pt-0 mt-0">
         <Gallery />
       </div>
+
 
       <div id="about" className="pt-0 mt-0">
         <AboutUsPage />
