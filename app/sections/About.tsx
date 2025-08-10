@@ -10,7 +10,7 @@ const kugile = localFont({
 
 export default function AboutUsPage() {
   return (
-    <section className="min-h-screen bg-[#FFFFFF] py-16 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center relative gap-16">
+    <section className="h-full w-full bg-[#FFFFFF] py-16 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center relative gap-16">
     
       <div className="relative w-full md:w-[65%] text-[#3C3C3C] mx-auto p-8 sm:p-12 rounded-2xl shadow-md overflow-hidden hover:scale-105 transition-all delay-150 duration-300 ease-in-out">
         <div className="absolute inset-0 z-0">
@@ -40,22 +40,6 @@ export default function AboutUsPage() {
           </h2>
         </div>
       </div>
-
-      <div className="w-full md:w-[35%] flex justify-center">
-        <div className="relative rounded-[20px] overflow-hidden shadow-xl hover:scale-105 transition-all delay-150 duration-300 ease-in-out">
-          <div className="relative w-[85vw] sm:w-[480px] aspect-[4/5]">
-            <Image
-              src="/about.png"
-              alt="Mayur Lodge Main"
-              fill
-              className="object-cover block"
-              sizes="100vw"
-              priority
-            />
-          </div>
-        </div>
-      </div>
-
     </section>
   );
 }
