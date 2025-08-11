@@ -56,9 +56,9 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center">
-          <Link href="/contact">
+          <Link href="/plans">
             <button className={`${aderoTrial.className} bg-white text-[#3C3C3C] text-sm border border-[#3C3C3C] px-3 py-2 rounded-3xl hover:text-yellow-500 hover:scale-105 transition-all delay-150 duration-100 ease-in-out cursor-pointer`}>
-              Reach Out
+              Search a plan 
             </button>
           </Link>
         </div>
