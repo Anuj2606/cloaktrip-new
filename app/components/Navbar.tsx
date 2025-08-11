@@ -92,9 +92,9 @@ export default function Navbar() {
           <button onClick={() => goToSection('gallery')} className="uppercase">Gallery</button>
           <button onClick={() => goToSection('location')} className="uppercase">Location</button>
 
-          <Link href="/contact">
+          <Link href="/plans">
             <button className="px-6 py-2 text-center uppercase border border-[#3C3C3C] rounded-3xl mx-auto block">
-              Reach Out
+              Search a plan 
             </button>
           </Link>
 
