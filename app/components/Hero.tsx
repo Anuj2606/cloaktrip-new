@@ -113,7 +113,7 @@ export default function Hero() {
         <div className="absolute left-1/2 transform -translate-x-1/2 bottom-50 sm:bottom-4 w-[75%] sm:w-[80%] max-w-[1300px] h-[270px] sm:h-auto border border-white/100 rounded-2xl backdrop-blur-[8px] bg-[#0000000D]/70 flex flex-col sm:flex-row justify-between items-center px-3 py-3 sm:px-4 sm:py-4 gap-3 sm:gap-4 z-30 shadow-[0px_4px_11.6px_0px_#00000026]">
 
           <div className={`${aderoTrial.className} hidden md:flex justify-center items-center w-[222px] h-[28px] whitespace-nowrap uppercase text-[#3C3C3C] pl-[30px] text-[20px] font-bold tracking-widest `}>
-            CloakTravel
+            CloakTrip
           </div>
 
           <VerticalSeparator />

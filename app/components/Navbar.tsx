@@ -40,7 +40,7 @@ export default function Navbar() {
       <div className="relative flex items-center justify-between w-full mx-auto px-4 py-2 sm:px-6 md:px-10 lg:px-16 h-[72px]">
 
         <div className={`${kugile.className} text-2xl sm:text-4xl mt-2 md:mt-0 font-normal tracking-wider whitespace-nowrap`}>
-          <Link href="/">CloakTravel</Link>
+          <Link href="/">CloakTrip</Link>
         </div>
 
         <div className={`${aderoTrial.className} hidden md:flex justify-center flex-1 gap-10 text-sm font-semibold`}>
